@@ -83,6 +83,16 @@ The software listed below should be available in [PATH](https://en.wikipedia.org
 - [PHP Storm](https://www.jetbrains.com/phpstorm), optional but recommended. To get Helm support in PhpStorm make sure to get v2018.3+
 - [NFS server](https://en.wikipedia.org/wiki/Network_File_System) ![](docs/images/linux-icon.png)![](docs/images/osx-icon.png) must be installed and running on \*nix and OSX hosts; usually available, follow [installation steps](#how-to-install) first
 
+For installing the same via brew (if you are a Mac user): 
+- Install Brew: 
+  ```
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
+- Install dependencies:
+  ```
+  brew install docker kubernetes-cli kubernetes-helm
+  brew cask install minikube virtualbox
+  ```
 ### Installation steps
 
 :information_source: In case of any issues during installation, please read [FAQ section](#faq)
